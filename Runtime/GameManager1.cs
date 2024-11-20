@@ -37,7 +37,7 @@ public class GameManager1 : MonoBehaviour
 
         if (result == null)
         {
-            result = GameObject.Find("Text (TMP)").GetComponent<TextMeshProUGUI>();
+            result = GameObject.Find("Result").GetComponent<TextMeshProUGUI>();
         }
 
         buttonStates = new Dictionary<int, bool>();
